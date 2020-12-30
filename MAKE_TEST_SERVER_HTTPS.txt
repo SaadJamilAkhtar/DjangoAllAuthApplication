@@ -1,0 +1,8 @@
+I) first install packages with:
+1. pip install django-extensions
+2. pip install Werkzeug
+3. pip install pyOpenSSL
+
+II) add 'django_extensions' in INSTALLED_APPS in settings.py
+
+III) run command "python manage.py runserver_plus --cert cert"
